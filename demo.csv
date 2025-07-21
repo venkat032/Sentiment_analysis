@@ -1,0 +1,20 @@
+sentence,response
+movie was bad,negative
+ram was a good boy,positive
+raj plays cricket well,"ChatCompletion(id='chatcmpl-94a514fc-ae56-41b3-8260-666380220896', choices=[Choice(finish_reason='stop', index=0, logprobs=None, message=ChatCompletionMessage(content='Based on the sentence ""Raj plays cricket well"", I would classify the sentiment as:\n\n**Positive**\n\nThe sentence expresses a positive opinion about Raj\'s performance in cricket, using the word ""well"" to convey a sense of admiration and approval.', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None))], created=1747319282, model='llama3-8b-8192', object='chat.completion', service_tier=None, system_fingerprint='fp_dadc9d6142', usage=CompletionUsage(completion_tokens=50, prompt_tokens=35, total_tokens=85, completion_tokens_details=None, prompt_tokens_details=None, queue_time=0.24883593699999998, prompt_time=0.004878093, completion_time=0.041666667, total_time=0.04654476), usage_breakdown={'models': None}, x_groq={'id': 'req_01jva5gp5te3gthwmrqkrvhqj6'})"
+mathew was bad in maths,"I'd be happy to help with sentiment analysis.
+
+Based on the sentence ""mathew was bad in maths"", I would classify the sentiment as **Negative**. The word ""bad"" has a negative connotation, implying that Mathew did not perform well in math."
+ramu was a good player,positive
+ram was good boy,**Positive**
+ram was good boy,Positive
+sai charan was playing good in bgmi,Positive
+sai charan was playing good in bgmi,Positive
+rahul was week in academics,Negative
+rahul was week in academics,Negative
+bot is a pro player in bgmi,Positive
+rahul was week in academics,Negative
+sumanth was bad guy,Negative
+sumanth was ,"I'll return the sentiment classification for the sentence.
+
+Sentiment: Neutral"

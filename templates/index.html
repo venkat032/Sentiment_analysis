@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENTIMENT ANALYSIS</title>
+    <link rel="stylesheet" href="../static/style.css">
+    <!-- xs -->
+    
+</head>
+<body>
+    <nav>SENTIMENT ANALYSIS</nav>
+    <h1 id="dem">SENTIMENT ANALYSIS</h1>
+    <p id="pok">Sentiment analysis, also known as opinion mining, is a natural language processing (NLP) technique used to determine the emotional tone or sentiment of a piece of text : </p>
+    <div id="mark">
+        <form action="/analyze", method="POST">
+    <input name="sentence" type="text" placeholder="ENTER THE TEXT">
+    <input id="btn" type="submit" value="Result">
+    </form>
+    </div>
+    <div id="mark1">
+        {% if sentiment %}
+            <h3>result</h3>
+            <p>sentence:{{ sentence }}</p>
+            <p>sentiment:{{ sentiment }}</p>
+        {% endif %}
+        {% if error %}
+            <p>error:{{ error }}</p>
+        {% endif %}
+    </div>
+
+    
+</body>
+</html>

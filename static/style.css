@@ -1,0 +1,87 @@
+body{
+    height: 100vh;
+    width: 100%;
+    background-image: url('https://sdmntprwestus.oaiusercontent.com/files/00000000-233c-6230-9059-8383e3cf3f84/raw?se=2025-05-21T15%3A09%3A31Z&sp=r&sv=2024-08-04&sr=b&scid=6337eec5-0694-5880-860a-52385f728bf9&skoid=ea1de0bc-0467-43d6-873a-9a5cf0a9f835&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2025-05-21T13%3A51%3A49Z&ske=2025-05-22T13%3A51%3A49Z&sks=b&skv=2024-08-04&sig=nP98SnvohGDjySluRhZWcv2fOhn4K%2BVHje1UJrmiR5E%3D');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#dem{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding-top: 180px;
+    text-shadow: 2px 2px 0px whitesmoke;
+}
+#mark{
+    height: 200px;
+    width: 300px;
+    box-shadow: 20px 2px 10px black;
+    background: url('https://images.pond5.com/dust-and-ash-explosion-front-footage-068350105_iconl.jpeg');
+    background-size: cover;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 20px;
+    margin-left:550px 
+     
+}
+nav{
+    background-color: black;
+    color: aliceblue;
+    height: 50px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    text-transform: capitalize;
+    font-size: 30px;
+    
+}
+#btn{
+    background-color: gray;
+    color: black;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    top: 490px;
+    left: 700px;
+    font-weight: bold;  
+    
+}
+#btn:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px whitesmoke;
+    background-color: black;
+    color: white;
+    border: 4px solid white;
+    
+}
+div input{
+    background-color: gray;
+    color: black;
+    border-radius: 5px;
+    position: absolute;
+    right: 650px;
+    font-weight: bold;
+    
+} 
+#pok{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+}
+input::placeholder{
+    color: black;
+    font-weight: bold;
+}
+#mark1{
+    height: 150px;
+    width: 220px;
+    color: aliceblue;
+    background-color: black;
+    content: inherit;
+    margin-left: 600px;
+    border-radius: 10px;
+
+}
